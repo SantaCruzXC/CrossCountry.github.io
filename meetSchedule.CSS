@@ -1,0 +1,92 @@
+.headerList {
+	list-style: none;
+	max-width: 100%;
+	width:60%;
+	top: 0;
+	margin-top: 0;
+	background-image: url("http://i.stack.imgur.com/pMAiU.jpg");
+	float:none;
+	text-align: center;
+	position: fixed;
+	left: 19.5%;
+	border-radius:0 0 130px 130px/100px;
+	padding: 30px;
+	border-style: solid;
+	border-color:black;
+	border-top-style: none;
+}
+.headerListItems {
+	display: inline-block;
+	max-width: 100%;
+	width: 18.5%;
+	text-align: center;
+	color:white;
+	vertical-align: text-top;
+	font-size: 1.3em;
+	padding: 0;
+}
+.frontPage , body , p , img  {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	padding-left:25px;
+	padding-right: 25px;
+}
+.headerListItems a:link, .headerListItems a:visited {
+	color:white;
+	text-decoration: none;
+}
+.headerListItems a:active, .headerListItems a:hover {
+	color:red;
+	background-color: black;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.cardinal {
+	padding: 0;
+	margin: 0;
+	left: 47.5%;
+	position: fixed;
+	z-index: 1;
+	top:1.5%;
+	margin-top: 0;
+}
+.schedule {
+	padding: 0;
+	margin:0;
+	position:fixed;
+	left:24.5%;
+	top:20%;
+	background-color: white;
+}
+td,th {
+	padding: 8px;
+}
+.tableLink {
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+  
+}
+caption {
+	background-color: white;
+	font-size: 1.7em;
+	font-weight:bold;
+	background-color:gray;
+}
+td {
+	border:black;
+}
+}
+thead {
+	color: black;
+}
+.oddRow {
+	background-color: gray;
+	color:white;
+}
+.oddRow a {
+	color:white;
+}
